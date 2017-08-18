@@ -1,0 +1,18 @@
+version: '3'
+services:
+  web:
+    image: docker-node-app
+    build: ./web-site
+#    command: node index.js
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./web-site:/usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      - "mongo"
+  mongo:
+    image: "mongo"
+
+    ports:
+      - "27017:27017"
