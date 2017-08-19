@@ -11,8 +11,10 @@ services:
       - /usr/src/app/node_modules
     depends_on:
       - "mongo"
+    network_mode: "host"
   mongo:
     image: "mongo"
 
     ports:
       - "27017:27017"
+    network_mode: "host"
