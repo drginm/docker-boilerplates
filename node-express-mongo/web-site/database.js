@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const DATABASE_CONECTION = 'mongodb://localhost/test';
+const DATABASE_CONECTION = 'mongodb://mongo/test';
 
 var kittySchema = mongoose.Schema({
   name: String
