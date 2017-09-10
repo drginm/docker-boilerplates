@@ -1,9 +1,9 @@
 version: '3'
 services:
   web:
-    image: docker-node-app
+    image: docker-node-express-mongoapp
     build: ./web-site
-#    command: node index.js
+    command: node index.js
     ports:
       - "3000:3000"
     volumes:
@@ -17,4 +17,10 @@ services:
 
     ports:
       - "27017:27017"
+    network_mode: "host"
+  adminmongo:
+    image: "mrvautin/adminmongo"
+
+    ports:
+      - "1234:1234"
     network_mode: "host"

@@ -6,3 +6,6 @@ A node application using express and mongo to show how to create and use a docke
 
 [Dockerizing a Node.js web app](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
 [Lessons from Building a Node App in Docker](http://jdlm.info/articles/2016/03/06/lessons-building-node-app-docker.html)
+[Express.js Hello world example](https://expressjs.com/en/starter/hello-world.html)
+[Mongoose Getting Started](http://mongoosejs.com/docs/)
+[AdminMongo](https://github.com/mrvautin/adminMongo)
