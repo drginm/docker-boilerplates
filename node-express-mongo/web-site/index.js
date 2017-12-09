@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 
 app.get('/testFind', function (req, res) {
   database.Kitten.find(function (err, kittens) {
-    if (err) return res.error(err);
+    if (err) res.status(500).send({ error: err });
     console.log(kittens);
     res.json(kittens);
   })
