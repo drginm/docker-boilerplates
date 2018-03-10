@@ -1,6 +1,6 @@
 FROM mongo
 
-# Create app directory
+# Workdir configs directory
 WORKDIR /usr/src/configs
 
 # Copy config files
@@ -8,4 +8,4 @@ COPY mongo.conf .
 
 EXPOSE 27017
 
-CMD ["--config", "/usr/src/configs/mongo.conf"]
+CMD ["--config", "./mongo.conf"]
