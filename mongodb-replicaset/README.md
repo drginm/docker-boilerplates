@@ -10,15 +10,15 @@ docker-compose up
 
 ## Url for the different mongo containers
 
-mongodb://mongo-rs0-1
-mongodb://mongo-rs0-2
-mongodb://mongo-rs0-3
+* mongodb://mongo-rs0-1
+* mongodb://mongo-rs0-2
+* mongodb://mongo-rs0-3
 
 ## Some commands for experimenting with the replica set
 
-docker exec mongodbreplicaset_mongo-rs0-1_1 bash -c 'mongo --eval "rs.status();"'
-docker stop mongodbreplicaset_mongo-rs0-2_1
-docker start mongodbreplicaset_mongo-rs0-2_1
+* docker exec mongodbreplicaset_mongo-rs0-1_1 bash -c 'mongo --eval "rs.status();"'
+* docker stop mongodbreplicaset_mongo-rs0-2_1
+* docker start mongodbreplicaset_mongo-rs0-2_1
 
 ## Resources
 
