@@ -1,0 +1,19 @@
+@objects
+    field_x-*           .field-x
+    field_y-*           .field-y
+    button_train        .button-train
+    button_add_example  .button-add-example
+    prediction_text     .predict-controls div
+
+= Train the model Section =
+    @on desktop
+        @forEach [field_x-*] as field, index as i
+            ${field}:
+                left-of field_y-${i} 0 px
+        button_train:
+            below button_add_example 20 px
+
+= Predict a value Section =
+    @on *
+        prediction_text:
+            text is "Click on train!"
