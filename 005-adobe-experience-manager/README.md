@@ -63,5 +63,13 @@ mvn clean install -PautoInstallPackage -PautoInstallPackagepublish -Padobe-publi
 ```
 
 ## Resources 
-
-[]()
+* [Github link for the code](https://github.com/drginm/docker-boilerplates/tree/master/005-adobe-experience-manager)
+* [What is AEM](https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/deploy.html#WhatisAEM)
+* [Typical Deployment Scenarios](https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/deploy.html#TypicalDeploymentScenarios)
+* [Installing the Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-install.html)
+* [Downloading the Dispatcher](https://www.adobeaemcloud.com/content/companies/public/adobe/dispatcher/dispatcher.html)
+* [Configure Run Modes](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configure-runmodes.html)
+* [Default Local Install](https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/deploy.html#DefaultLocalInstall)
+* [AEM Technical Requirements](https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/technical-requirements.html)
+* [Add Instruction - Dockerfile reference](https://docs.docker.com/engine/reference/builder/#add)
+* [Create an AEM app using Adobe\'s archetype](https://helpx.adobe.com/experience-manager/using/maven_arch12.html#CreateanAEMMaven12archetypeproject)
