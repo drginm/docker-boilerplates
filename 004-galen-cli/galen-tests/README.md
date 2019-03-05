@@ -13,6 +13,12 @@ galen test tests/ --htmlreport reports
 ```
 
 ### Selenium grid
+#### Local
+
+```
+galen test tests/ --htmlreport reports -Dgalen.browserFactory.selenium.runInGrid=true -Dgalen.browserFactory.selenium.grid.url=http://IP:PORT/wd/hub
+```
+
 #### BrowserStack
 
 ```

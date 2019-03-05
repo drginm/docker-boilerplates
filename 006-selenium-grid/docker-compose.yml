@@ -1,0 +1,24 @@
+version: '3'
+services:
+  hub:
+    image: "selenium/hub"
+    environment:
+      - GRID_HUB_PORT=${HUB_SERVICE_PORT}
+    ports:
+      - "${HUB_SERVICE_PORT}:${HUB_SERVICE_PORT}"
+
+  selenium-node-chrome:
+    image: "selenium/node-chrome"
+    environment:
+      - HUB_PORT_4444_TCP_ADDR=${HUB_SERVICE_URL}
+      - HUB_PORT_4444_TCP_PORT=${HUB_SERVICE_PORT}
+    depends_on:
+      - "hub"
+
+  selenium-node-firefox:
+    image: "selenium/node-firefox"
+    environment:
+      - HUB_PORT_4444_TCP_ADDR=${HUB_SERVICE_URL}
+      - HUB_PORT_4444_TCP_PORT=${HUB_SERVICE_PORT}
+    depends_on:
+      - "hub"

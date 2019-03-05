@@ -13,5 +13,6 @@ docker run my-node-app
 ```
 
 ## Resources 
-
-[Dockerizing a Node.js web app](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)
+* [Creating a Docker container for a NodeJs application - Tutorial - Video](https://youtu.be/piGUsH6p1IE)
+* [Creating a Docker container for a NodeJs application - Tutorial - Post](https://www.dlighthouse.co/2017/09/docker-node-express-mongo.html)
+* [Dockerizing a Node.js web app](https://nodejs.org/en/docs/guides/nodejs-docker-webapp/)

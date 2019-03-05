@@ -20,11 +20,12 @@ docker-compose up
 * docker stop mongodbreplicaset_mongo-rs0-2_1
 * docker start mongodbreplicaset_mongo-rs0-2_1
 
-## Resources
-
-[Mongo Replication - Replica Set](https://docs.mongodb.com/manual/replication/)
-[Deploy a Replica Set for Testing and Development](https://docs.mongodb.com/manual/tutorial/deploy-replica-set-for-testing/)
-[Replication Options - Configuration File Options](https://docs.mongodb.com/manual/reference/configuration-options/#replication-options)
-[Write Scripts for the mongo Shell](https://docs.mongodb.com/manual/tutorial/write-scripts-for-the-mongo-shell/)
-[Mongoose Getting Started](http://mongoosejs.com/docs/)
-[AdminMongo](https://github.com/mrvautin/adminMongo)
+## Resources 
+* [Creating a Mongo replicaset using docker: Mongo replicaset + Nodejs + Docker Compose - Video](https://youtu.be/mlw7vWISaF4)
+* [Creating a Mongo replicaset using docker: Mongo replicaset + Nodejs + Docker Compose - Post](https://www.dlighthouse.co/2018/03/creating-mongo-replicaset-using-docker.html)
+* [Mongo Replication - Replica Set](https://docs.mongodb.com/manual/replication/)
+* [Deploy a Replica Set for Testing and Development](https://docs.mongodb.com/manual/tutorial/deploy-replica-set-for-testing/)
+* [Replication Options - Configuration File Options](https://docs.mongodb.com/manual/reference/configuration-options/#replication-options)
+* [Write Scripts for the mongo Shell](https://docs.mongodb.com/manual/tutorial/write-scripts-for-the-mongo-shell/)
+* [Mongoose Getting Started](http://mongoosejs.com/docs/)
+* [AdminMongo](https://github.com/mrvautin/adminMongo)
