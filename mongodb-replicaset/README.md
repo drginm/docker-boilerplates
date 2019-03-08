@@ -16,9 +16,9 @@ docker-compose up
 
 ## Some commands for experimenting with the replica set
 
-* docker exec mongodbreplicaset_mongo-rs0-1_1 bash -c 'mongo --eval "rs.status();"'
-* docker stop mongodbreplicaset_mongo-rs0-2_1
-* docker start mongodbreplicaset_mongo-rs0-2_1
+* docker exec mongodb-replicaset_mongo-rs0-1_1 bash -c 'mongo --eval "rs.status();"'
+* docker stop mongodb-replicaset_mongo-rs0-2_1
+* docker start mongodb-replicaset_mongo-rs0-2_1
 
 ## Resources 
 * [Creating a Mongo replicaset using docker: Mongo replicaset + Nodejs + Docker Compose - Video](https://youtu.be/mlw7vWISaF4)
