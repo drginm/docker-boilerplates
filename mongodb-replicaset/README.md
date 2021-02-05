@@ -1,6 +1,6 @@
 # Simple replica set in docker with a web app to connect to it
 
-An exampl of how to create a very simple replica set using docker's docker-compose file.  It can be used for starting developing your app without needing to install a mongo server locally.
+An example of how to create a very simple replica set using docker's docker-compose file.  It can be used for starting developing your app without needing to install a mongo server locally.
 
 ## For starting this up
 
